@@ -1,3 +1,232 @@
-wat
+# vim: set ft=markdown:
 
-A log book for software engineers.
+wat
+===
+
+A logbook for software engineers.
+
+logbook
+-------
+
+Let's loosely define a logbook as:
+
+  A record of important events.
+
+organizing and writing the logbook
+----------------------------------
+
+  The following is a bastardized hacking of chapter 5, titled "Organizing and
+  writing the Notebook", from Howard B. Kanare's book "Writing the Laboratory
+  Notebook".
+
+The key to writing a useful logbook is simple clarity: Clear layout, clear
+descriptions. No single system for setting up the logbook will be the best
+system for all people in all situations. You must adopt a flexible attitude
+about how to set up the logbook. Keep in mind that anyone should be able to
+pick up your logbook and understand what you have just written.
+
+You need a flexible attitude because you must consider your own perspective
+when you write the logbook as well as the perspective of future readers. If you
+are recording analytical results, a straightforward tabulation is most sensible
+because you and future readers can best make sense of carefully laid-out data.
+Research is best handled by a narrative description, as if you were telling a
+story to someone who was not present for the original event.  Flexibility in
+organizing the logbook means sometimes abbreviating subjects and sometimes
+spelling them out in detail.
+
+During the course of your career, you will use logbooks for many activities: to
+plan work and experiments; make safety notes; record data and observations;
+perform calculations; discuss results of work and experiments; describe
+inventions; track assignments; review progress; and keep track of supplies and
+equipment performance.
+
+Think of each job or project that you are about to begin recording as a
+separate entity from the previous entries, and ask yourself, "How should I
+organize the headings for this project's topics for maximum clarity?" Routine
+work often needs no more than a sentence or two of background explanation before
+getting into the actual experiment, observation, measurment, design, or
+implementation.
+
+The deductive method can serve as a template for those looking for help getting
+started.
+
+1. Introduction
+
+Some people use the heading "Purpose" rather than "Introduction" because this
+section focuses on the specific short-term goal of the work. In the remainder
+of the introduction, provide explanation and support of the proposed work: Why
+is the work being undertaken? What related work has been done (by others,
+yourself)? Cite the literature. What were the results of this previous work?
+Why was the current experiment chosen? Show the relevant calculations that were
+needed.
+
+For routine work, the length of the introduction may be as brief as a single
+sentence. On the other hand, the introduction to a substantial amount of work
+may warrant many pages and consist of separate subsections with headings such
+as "Literature Survey," "Calculations," "Possible Experiments," or
+"Predictions." During the course of the work, experiment, analaysis, you will
+frequently refer to the "Introduction" section to check calculations or to
+reasses the reasons for choosing a particular approach to the problem.
+Therefore, after several large entries, summarize your work up to that point
+and clearly mark it.
+
+2. Plan
+
+If you omit the plan and jump into a narrative, then your readers will likely
+have trouble understanding what you were doing. A clear statement of the
+problem means that you understand what you want to do and that you are focused
+on a particular approach to solving the problem. For large projects, a
+well-described plan is a help when you begin to make tasks. When discussing the
+work with others, a clear statement of the plan is essential so that everyone
+is on the same wavelength. This section may avoid unwittingly repeating
+previous work; therefore, include it in every write-up.
+
+Use simple sentences to state the work to be done. References to previous work
+can often substitute for writing detailed plans, but should not substitue for
+careful planning.
+
+Information presented in the introduction should not be recapitulated in the
+plan section. The introduction should be a general look backward at what has
+been done to date and the reasons for undertaking the current problem. The plan
+should be a look forward, describing the specific work to be done. If the plan
+is presented as a list or outline, you can insert references to each item of
+the plan is actually accomplished.
+
+3. Observations and Data
+
+This section might be considered the heart of your logging because, in it, you
+actually record the observations that you make during the course of your work.
+These notes and data will lead you to accept or abandon a plan and help you
+decide the course of future work. You must be as objective and honest in
+recording your observations and data as you are in obtaining them.
+
+In this section, you wil record raw data (also called primary data). This raw
+data is precious. Treat it with the care and respect that you would give to a
+family heirloom. Indeed, the data may be passed on to another generation who
+have to trust your observations and make use of your work.
+
+Record the data as completely as possible and leave interpretation of the
+observations for later. With this attitude, you are better able to concentrate
+on your observations. You will be less likely to make mistakes if you are not
+at the same time doing work and drawing conclusions. To get the most from your
+work, wait until the work is completely before deciding which data are useful,
+which data are useless, and which data need additional study.
+
+However, you should always be on the lookout for the novel, unexpected
+happening. As Pasteur observed, "Chance favors only the prepared mind."
+
+Most of the observations and data section can be a narrative description, a
+story, telling what you did and what you saw. Use the first person, if
+appropriate, to make clear that you did the work. If someone else did the work,
+be sure that point is obvious. Write in reasonably brief declarative sentences
+as the work progresses. If you write convoluted or complex sentences with many
+parenthetic phrases, perhaps with chains of dependent clauses (not a good idea
+anyway), you will make future reading difficult and may very well obscure the
+main points of your work.
+
+More than sixty years ago, Reginald Hughes wrote, "The cardinal merits of good
+notes are lucidity, brevity, and simplicity." Today we say, "Notes should be
+clear, concise, and complete." To write the most useful notes, you must follow
+several principles. The most important principle is that observations and data
+are recorded immediately.
+
+Simply put, write down whatever happens, when it happens. Don't wait until the
+end of the day to sit down and recollect your thoughts; you must plan for
+adequate time to write notes. Don't try to squeeze your notewriting into spare
+moments between the more exciting aspects of your work. Make notekeeping an
+integral part of whatever you do.
+
+A notetaker's demeanor generally falls between two extremes. Some are
+methodical and concerned about every step they take, Pasteur-types (P-types),
+and some rush headlong into the work, eager "to get their hands dirty" without
+adequate planning, LeMonnier-types (L-types). L-types keep sloppy and mostly
+useless notes, whereas P-types keep the best and most valuable notes.
+Undoubtedly, you should have some characteristics of both types within you and
+bring to the surface either the enthusiasm or the caution, as the situation
+warrants.
+
+How much detail should be recorded in your notes? Could someone who is
+competent in your field pick up your logbook and repeat your work solely from
+the written description without additional explanation? If the answer is yes,
+then you are doing a good job. Too many details are better than for you to
+assume that a future reader (perhaps you!) will know all about your work. Don't
+be embarassed to describe what you think is a sloppy or poor technique. Your
+results hinge on what you actually do, not on how nicely you tell everyone it
+was done.
+
+A good drawing can save you several pages of writing and often conveys a better
+sense of the device you want to describe than words alone could do.
+
+4. Discussion of Results
+
+This section provides you with the opportunity to reflect on what you did and
+what you saw during the course of your work. Write this section after the work
+is completed. If an idea occurs to you while recording the observations and data,
+put it into the logbook at that time to preserve continuity and document the
+circumstances under which the work took place. However, as a matter of general
+practice, concentrate on making observations while performing the experiment
+and concentrate on interpreting the results after they have been recorded.
+
+This section in which you truly "think in the logbook." An idea may occur
+once, and only briefly: catch it while you can and freeze it onto the page for
+further study.
+
+Often you will want the opinion of a colleague regarding some recent work and
+your interpretation of the results. A thorough discussion section is better
+than a brief summary of what you found. Do not use the discussion section to
+simply restate the results. Use it instead to *understand* the results. If the
+the results clearly fit your goals, then say so. If the two are at odds, say so
+and discuss why. Speculation is approprate for this seciton, but not in the
+section used to record the results.
+
+5. Conclusion
+
+In this last section of your notes, you should summarize the goal of your work,
+what was done, and what you found. Typically, the conclusion can be handled in
+one or two pages for long projects and in one or two sentences for routine work.
+Several subjects should be included in the conclusion: Was the goal of the work
+achieved? Was the model substantiated or disproved? How well did the design
+work toward achieving the goal? What should have been done differently? What
+should be done next?
+
+Some people like to make their conclusions especially clear by numbering them.
+The more important ones are placed first, and the less important conclusions
+are last. This idea is a good one. When you sit down to write up your work more
+formally, having the conclusions laid out in front of you is indeed a big help.
+Looking at it another way, your conclusion section should contain all the
+information that ou would put into an abstract describing the work.
+
+literature survey
+-----------------
+
+  Like the text surrounding this section, the following paragraph is a slightly
+  altered version of an explanation provided elsewhere. In this case, it's from
+  Yahoo. [https://answers.yahoo.com/question/index?qid=20100606130459AALlQwB]
+
+Read and report on what the literature in a field has to say about your topic or
+subject. There may be a lot of literature or there may be a little. Either way,
+the goal is to show that you have read and understand the positions of others
+who have studied the problem that you are working on, you can do this by way of
+comparing and contrasting, simple summarization, or any number of other devices.
+
+training record
+---------------
+
+One of the handiest uses of a logbook is to keep track of new methods,
+techniques, procedures, or other lessons you learn on the job. Even though you
+may have a manual of information, you will also gain insights while doing the
+work, some of which are never formally written down. These little "aha!"
+moments are often as important (if not more so!) than the original
+documentation. Ask questions and take time to write down the answers. The act
+of writing helps you remember.
+
+method
+======
+
+This is more than an introduction of a new tool. It will require a change in
+how I work. This is what I'm after.
+
+As I work, I will be adding entries into my logbook. These entries will range
+from a few sentences to several pages. In addition, I will take time out of the
+morning, end of work day, and end of day, to plan for the day and then, later,
+to recap and prepare for the next day.
