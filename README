@@ -1,5 +1,3 @@
-# vim: set ft=markdown:
-
 wat
 ===
 
@@ -47,8 +45,7 @@ work often needs no more than a sentence or two of background explanation before
 getting into the actual experiment, observation, measurment, design, or
 implementation.
 
-The deductive method can serve as a template for those looking for help getting
-started.
+The deductive method can serve as a template for those looking for guidance:
 
 1. Introduction
 
@@ -230,3 +227,78 @@ As I work, I will be adding entries into my logbook. These entries will range
 from a few sentences to several pages. In addition, I will take time out of the
 morning, end of work day, and end of day, to plan for the day and then, later,
 to recap and prepare for the next day.
+
+The logbook itself is going to be a git repository of plain text files and
+other media as is necessary to quickly and accurately convey what is happening.
+Since many logbooks will exist, it's important that I can store them together
+and reference one logbook from another. To this end, different logbooks will be
+stored in the same repository through some, currently undetermined, mechanism.
+
+Logbook related activities that should require no effort:
+
+1. Open the logbook
+2. Create a new logbook
+3. Create an entry in a logbook
+4. Sign an entry in a logbook
+5. View the signature of an entry
+6. Reference an entry in any logbook in the repository
+7. Follow a reference in an entry
+8. Search the entries in any logbook in the repository
+9. View a list of all of the entries in a logbook
+   * Navigate through the list of entries
+   * Goto an entry on <some-keystroke>
+
+This will be achieved through standard unix commands, and will rely heavily on
+vim.
+
+For now, all of the logbooks will be stored in the directory `~/.logbooks`.
+Each logbook will have its own directory and each entry will have its own plain
+text file. Other media will be stored in an ad-hoc manner until a system is
+needed.
+
+Here's an example of a simple entry:
+
+    Refactor foo to bar
+
+    I ran into an issue because of goddamn computers, but it's worked out now.
+    Here are the things I tried:
+
+    - thing 1
+    - thing 2
+
+    Here is what I ended up doing:
+
+    - thing 5: the solution
+
+    Here are other things I looked at:
+
+    - thing 3: I didn't use this because, fuck thing 3
+    - thing 4: This decision was a little tougher, but it didn't do:
+        - requirement 94034.ab
+
+    [Note]
+    I have this sneaking suspicion that our design is not handling the cases we
+    planned for and so we are reaching for solutions further and further from
+    the design we intended.
+
+Ideally, I can have a workflow that is vim based. Something like this:
+
+1. Start the day by opening vim
+2. Use my logbook from anywhere, as long as vim is open
+
+    <leader>ll
+          Opens the notebook in quickfix             (list of entries)
+
+    <leader>la "name"
+          Changes active notebook to "name"          (default: me)
+
+    <leader>le
+          Creates an entry in the active notebook    (default: me)
+
+    <leader>lg
+          Goto referenced log entry
+
+    <leader>lf "pattern"
+          Find pattern in logbook
+
+3. As a matter of course, all entries will be gpg encrypted
