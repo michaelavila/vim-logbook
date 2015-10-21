@@ -5,7 +5,7 @@ function! LogbookEditNewEntry()
 endfunction
 
 function! LogbookListEntries()
-  call setqflist([])
+  let entries = []
   for entry in split(globpath(g:logbook_dir, "*"), "\n")
     let path = split(entry, '/')
 
@@ -13,10 +13,11 @@ function! LogbookListEntries()
     let pattern = Trim(system('date +"%m/%d/%Y (%r)" -d @' . path[len(path)-1]))
     let text = readfile(entry)[0]
 
-    call setqflist([{"pattern":pattern, "filename":filename, "text":text}], "a")
+    let entries = [{"pattern":pattern, "filename":filename, "text":text}] + entries
   endfor
 
-  if len(getqflist()) > 0
+  call setqflist(entries)
+  if len(entries) > 0
     execute "copen"
   endif
 endfunction
