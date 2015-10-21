@@ -1,5 +1,9 @@
 let g:logbook_dir = "$HOME/.logbook/"
 
+function! Trim(string)
+  return substitute(a:string, '\n\+$', '', '')
+endfunction
+
 function! LogbookEditNewEntry()
   execute "edit " . g:logbook_dir . Trim(system("date +%s"))
 endfunction
