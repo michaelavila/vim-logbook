@@ -14,3 +14,8 @@ Here is the barebones interface to the logbook:
 
     <leader>le
           Creates an entry in the logbook
+
+configuration
+=============
+
+Just make sure you have the directory `~/.logbook`
