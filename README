@@ -287,18 +287,9 @@ Ideally, I can have a workflow that is vim based. Something like this:
 2. Use my logbook from anywhere, as long as vim is open
 
     <leader>ll
-          Opens the notebook in quickfix             (list of entries)
-
-    <leader>la "name"
-          Changes active notebook to "name"          (default: me)
+          Opens the entries of the logbook in quickfix
 
     <leader>le
-          Creates an entry in the active notebook    (default: me)
-
-    <leader>lg
-          Goto referenced log entry
-
-    <leader>lf "pattern"
-          Find pattern in logbook
+          Creates an entry in the logbook
 
 3. As a matter of course, all entries will be gpg encrypted
