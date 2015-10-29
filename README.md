@@ -12,7 +12,8 @@ Let's loosely define a logbook as:
 0. Map the two logbook functions to the keyboard:
 
 ```shell
-nnoremap <leader>le :call LogbookEditNewEntry()<cr>
+nnoremap <leader>le :call LogbookNewEntry()<cr>
+nnoremap <leader>ld :call LogbookSignEntry()<cr>
 nnoremap <leader>ll :call LogbookListEntries()<cr>
 ```
 

@@ -40,5 +40,6 @@ You need to create the directory `$HOME/.logbook`
 
 You probably want to map the two `logbook` functions to the keyboard:
 
-    nnoremap <leader>le :call LogbookEditNewEntry()<cr>
+    nnoremap <leader>le :call LogbookNewEntry()<cr>
+    nnoremap <leader>ld :call LogbookSignEntry()<cr>
     nnoremap <leader>ll :call LogbookListEntries()<cr>
